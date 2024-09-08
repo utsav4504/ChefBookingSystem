@@ -8,15 +8,15 @@ The Chef Booking System backend is a Spring Boot application designed for managi
 ○ Interactive API Documentation: Access detailed API documentation using Swagger.
 ○ MySQL Integration: Automatic schema updates and data persistence.
   </pre>
-###Prerequisites
+### Prerequisites
 <pre>
 ○ Java 17 or later
 ○ Maven 3.6.0 or later
 ○ MySQL Database
 ○ Swagger UI
   </pre>
-###Getting Started
-####Clone the Repository
+### Getting Started
+#### Clone the Repository
 <pre>
 git clone https://github.com/your-username/chef-booking-system.git
 cd chef-booking-system
@@ -24,7 +24,7 @@ cd chef-booking-system
 #### Configuration
 ○ Update the src/main/resources/application.properties file with your database details:
 
-### properties
+### Properties
 <pre>
 ○ spring.datasource.url=jdbc:mysql://localhost:3306/book?ServerTimeZone=UTC
 ○ spring.datasource.username=root
