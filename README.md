@@ -68,7 +68,6 @@ Chef Controller
 ○ Delete Chef: DELETE /chef/delete - deleteChef
 ○ Handle Booking Completion: GET /chef/taskCompleted - bookingCompletionHandler
     <br>
-    <br>
 Customer Controller
 ○ Register Chef Booking: POST /customer/chefBooking/{sessionKey} - registerChefBooking
 ○ Get All Bookings by Customer ID: GET /customer/chefBooking/{customerId}/{sessionKey} - allBookingByCustomerId
@@ -77,7 +76,6 @@ Customer Controller
 ○ Create Customer: POST /customer/create - saveCustomer
 ○ Update Customer: PUT /customer/update - updateCustomer
 ○ Delete Customer: DELETE /customer/delete/{customerId}/{sessionKey} - deleteCustomer
-    <br>
     <br>
 Login Controllers
 ○ Admin Login: POST /loginAdmin - logIn
