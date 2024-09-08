@@ -55,7 +55,7 @@ Copy code
 </pre>
 ### Controllers and Endpoints
 <pre>
-#### Admin Controller
+Admin Controller
 ○ Create Admin: POST /admin/create - saveAdmin
 ○ Update Admin: PUT /admin/update - updateAdmin
 ○ Delete Admin: DELETE /admin/delete - deleteAdmin
@@ -66,14 +66,14 @@ Copy code
 ○ View Customer by ID: GET /admin/viewById/customer/{adminId}/{customerId}/{sessionKey} - findCustomerById
   <br>
     <br>
-#### Chef Controller
+Chef Controller
 ○ Create Chef: POST /chef/create - saveChef
 ○ Update Chef: PUT /chef/update - updateChef
 ○ Delete Chef: DELETE /chef/delete - deleteChef
 ○ Handle Booking Completion: GET /chef/taskCompleted - bookingCompletionHandler
     <br>
     <br>
-#### Customer Controller
+Customer Controller
 ○ Register Chef Booking: POST /customer/chefBooking/{sessionKey} - registerChefBooking
 ○ Get All Bookings by Customer ID: GET /customer/chefBooking/{customerId}/{sessionKey} - allBookingByCustomerId
 ○ Cancel Booking: DELETE /customer/cancelBooking/{customerId}/{sessionKey} - deleteBooking
@@ -83,7 +83,7 @@ Copy code
 ○ Delete Customer: DELETE /customer/delete/{customerId}/{sessionKey} - deleteCustomer
     <br>
     <br>
-#### Login Controllers
+Login Controllers
 ○ Admin Login: POST /loginAdmin - logIn
 ○ Admin Logout: GET /logoutAdmin - logout
 ○ Chef Login: POST /loginChef - logIn
