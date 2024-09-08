@@ -3,32 +3,39 @@
 The Chef Booking System backend is a Spring Boot application designed for managing chefs, customers, bookings, and administrators. It provides RESTful APIs with Swagger for interactive API documentation and MySQL for persistent data storage.
 
 ### Features
+<pre>
 ○ CRUD Operations: Manage chefs, customers, bookings, and administrators.
 ○ Interactive API Documentation: Access detailed API documentation using Swagger.
 ○ MySQL Integration: Automatic schema updates and data persistence.
+  </pre>
 ###Prerequisites
+<pre>
 ○ Java 17 or later
 ○ Maven 3.6.0 or later
 ○ MySQL Database
 ○ Swagger UI
+  </pre>
 ###Getting Started
 ####Clone the Repository
+<pre>
 git clone https://github.com/your-username/chef-booking-system.git
 cd chef-booking-system
+  </pre>
 #### Configuration
 ○ Update the src/main/resources/application.properties file with your database details:
 
 ### properties
-
+<pre>
 ○ spring.datasource.url=jdbc:mysql://localhost:3306/book?ServerTimeZone=UTC
 ○ spring.datasource.username=root
 ○ spring.datasource.password=your-database-password
 ○ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 ○ spring.jpa.hibernate.ddl-auto=update
 ○ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
-vspring.application.name=bookStore
-
+○ spring.application.name=bookStore
+</pre>
 ### Build and Run
+<pre>
 Build the project:
 
 Copy code
@@ -45,8 +52,9 @@ Copy code
 
 Copy code
 ○ http://localhost:8080/swagger-ui.html
-
+</pre>
 ### Controllers and Endpoints
+<pre>
 #### Admin Controller
 ○ Create Admin: POST /admin/create - saveAdmin
 ○ Update Admin: PUT /admin/update - updateAdmin
@@ -77,7 +85,7 @@ vView Customer by ID: GET /admin/viewById/customer/{adminId}/{customerId}/{sessi
 ○ Customer Login: POST /loginCustomer - logIn
 ○ Customer Logout: GET /logoutCustomer - logout
 
-
+</pre>
 ### License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
