@@ -63,12 +63,16 @@ Copy code
 ○ View All Chefs: GET /admin/viewAll/chef/{adminId}/{sessionKey} - findAllChef
 ○ View All Customers: GET /admin/viewAll/customer/{adminId}/{sessionKey} - findAllCustomer
 ○ View Chef by ID: GET /admin/viewById/chef/{adminId}/{chefId}/{sessionKey} - findChefById
-vView Customer by ID: GET /admin/viewById/customer/{adminId}/{customerId}/{sessionKey} - findCustomerById
+○ View Customer by ID: GET /admin/viewById/customer/{adminId}/{customerId}/{sessionKey} - findCustomerById
+  <br>
+    <br>
 #### Chef Controller
 ○ Create Chef: POST /chef/create - saveChef
 ○ Update Chef: PUT /chef/update - updateChef
 ○ Delete Chef: DELETE /chef/delete - deleteChef
 ○ Handle Booking Completion: GET /chef/taskCompleted - bookingCompletionHandler
+    <br>
+    <br>
 #### Customer Controller
 ○ Register Chef Booking: POST /customer/chefBooking/{sessionKey} - registerChefBooking
 ○ Get All Bookings by Customer ID: GET /customer/chefBooking/{customerId}/{sessionKey} - allBookingByCustomerId
@@ -77,6 +81,8 @@ vView Customer by ID: GET /admin/viewById/customer/{adminId}/{customerId}/{sessi
 ○ Create Customer: POST /customer/create - saveCustomer
 ○ Update Customer: PUT /customer/update - updateCustomer
 ○ Delete Customer: DELETE /customer/delete/{customerId}/{sessionKey} - deleteCustomer
+    <br>
+    <br>
 #### Login Controllers
 ○ Admin Login: POST /loginAdmin - logIn
 ○ Admin Logout: GET /logoutAdmin - logout
