@@ -30,7 +30,7 @@ cd chef-booking-system
 ○ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 ○ spring.jpa.hibernate.ddl-auto=update
 ○ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
-○ spring.application.name=bookStore
+○ spring.application.name=chefBooking
 </pre>
 ### Build and Run
 <pre>
@@ -45,7 +45,7 @@ Copy code
 </pre>
 ### API Documentation
 <pre>
-○ Access Swagger UI at:
+Access Swagger UI at:
 Copy code
 ○ http://localhost:8080/swagger-ui.html
 </pre>
