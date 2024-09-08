@@ -1,7 +1,6 @@
 ## Chef Booking System - Spring Boot Backend
 ### Overview
 The Chef Booking System backend is a Spring Boot application designed for managing chefs, customers, bookings, and administrators. It provides RESTful APIs with Swagger for interactive API documentation and MySQL for persistent data storage.
-
 ### Features
 <pre>
 ○ CRUD Operations: Manage chefs, customers, bookings, and administrators.
@@ -23,7 +22,6 @@ cd chef-booking-system
   </pre>
 #### Configuration
 ○ Update the src/main/resources/application.properties file with your database details:
-
 ### Properties
 <pre>
 ○ spring.datasource.url=jdbc:mysql://localhost:3306/book?ServerTimeZone=UTC
@@ -40,17 +38,15 @@ Build the project:
 
 Copy code
 ○ mvn clean install
-
-#### Run the application:
-
-
+</pre>
+### Run the application:
+<pre>
 Copy code
 ○ mvn spring-boot:run
 </pre>
 ### API Documentation
 <pre>
 ○ Access Swagger UI at:
-
 Copy code
 ○ http://localhost:8080/swagger-ui.html
 </pre>
