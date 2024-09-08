@@ -1,6 +1,6 @@
 ## Chef Booking System - Spring Boot Backend
 ### Overview
-The Chef Booking System backend is a Spring Boot application designed for managing chefs, customers, bookings, and administrators. It provides RESTful APIs with Swagger for interactive API documentation and MySQL for persistent data storage.
+The Chef Booking System is a backend application based on Spring Boot framework designed for managing chefs, customers, bookings, and administrators.
 ### Features
 <pre>
 ○ CRUD Operations: Manage chefs, customers, bookings, and administrators.
@@ -35,7 +35,6 @@ cd chef-booking-system
 ### Build and Run
 <pre>
 Build the project:
-
 Copy code
 ○ mvn clean install
 </pre>
