@@ -89,8 +89,6 @@ http://localhost:8080/swagger-ui.html
 - **Customer Login**: `POST /loginCustomer`
 - **Customer Logout**: `GET /logoutCustomer`
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Contact
 For any questions or feedback, contact: **[utsav45.jn@gmail.com](mailto:utsav45.jn@gmail.com)**
